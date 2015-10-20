@@ -16,7 +16,7 @@ permalink: /team-info/
 
 [Trello -- Ideas & Tasks](https://trello.com/aria62)
 
-[Google Drive -- Files & Documents](https://drive.google.com/open?id=0B6FTBa9iYPrnd0YtSVdqYXRHRkU)
+[Google Drive -- Files & Documents](https://drive.google.com/folderview?id=0B6FTBa9iYPrnWEdIa0VCOGZUZVE&usp=sharing)
 
 ### Selected Documents
 
