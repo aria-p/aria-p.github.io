@@ -3,4 +3,4 @@ layout: page
 title: Home
 ---
 
-asdf
+[Team info](/team-info)
