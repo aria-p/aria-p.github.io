@@ -18,6 +18,8 @@ permalink: /team-info/
 
 ### Documents
 
+[Meeting Notes](https://docs.google.com/document/d/1ePcB5RFPPTQPYThXHeWQhwQZXJ6gSqsa8O-5eoNDO6k/edit?usp=sharing)
+
 [Problem Statement](https://docs.google.com/document/d/1dPAgAhHGof8zrIVe472jgc14BknGENSHXfybvN4HSzY/edit)
 
 [Requirements Document (WIP)](https://docs.google.com/document/d/15iRLq0lVsgVWAcAOZcBUuEelm3pgLAG7UpS1Gwftlz4/edit?usp=sharing)
