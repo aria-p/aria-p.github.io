@@ -1,82 +1,19 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>ARIA-P</title>
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    {% include head.html %}
 
-    <link href='//fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en'
-          rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.indigo-pink.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.min.js"></script>
-    <style>
-        .demo-ribbon {
-            width: 100%;
-            height: 40vh;
-            background-color: #3F51B5;
-            -webkit-flex-shrink: 0;
-            -ms-flex-negative: 0;
-            flex-shrink: 0;
-        }
-
-        .demo-main {
-            margin-top: -35vh;
-            -webkit-flex-shrink: 0;
-            -ms-flex-negative: 0;
-            flex-shrink: 0;
-        }
-
-        .demo-header .mdl-layout__header-row {
-            padding-left: 40px;
-        }
-
-        .demo-container {
-            max-width: 1600px;
-            width: calc(100% - 16px);
-            margin: 0 auto;
-        }
-
-        .demo-content {
-            border-radius: 2px;
-            padding: 80px 56px;
-            margin-bottom: 80px;
-        }
-
-        .demo-layout.is-small-screen .demo-content {
-            padding: 40px 28px;
-        }
-
-        .demo-content h3 {
-            margin-top: 48px;
-        }
-
-        .demo-footer {
-            padding-left: 40px;
-        }
-
-        .demo-footer .mdl-mini-footer--link-list a {
-            font-size: 13px;
-        }
-
-    </style>
-</head>
-<body>
-<div class="demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
-    <header class="demo-header mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800">
-        {{ header }}
-    </header>
-    <div class="demo-ribbon"></div>
-    <main class="demo-main mdl-layout__content">
-        <div class="demo-container mdl-grid">
-            <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-            <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
-                {{ content }}
-            </div>
-        </div>
-        <footer class="demo-footer mdl-mini-footer">
-
-        </footer>
+    <meta name="robots" content="noindex"> <!--=====  Please remove it ! ! !  ======-->
+    <meta name="googlebot" content="noindex"> <!--=====  Please remove it ! ! !  ======-->
+  </head>
+  <body class="{{ page.slug }}">
+    <main class="main">
+      {% include header.html %}
+      {{ content }}
+      {% include footer.html %}
     </main>
-</div>
-</body>
+  </body>
 </html>
