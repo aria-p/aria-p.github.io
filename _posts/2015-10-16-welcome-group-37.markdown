@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome Group 37 / Aria"
+title:  "Welcome Group 37 / ARIA"
 categories: weekly update
 ---
 
